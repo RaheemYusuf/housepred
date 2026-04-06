@@ -17,4 +17,4 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("housepredlogger")
+logger = logging.getLogger("wineqltypredlogger")

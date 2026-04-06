@@ -1,6 +1,6 @@
 import os
 import yaml
-from src.housepricepred import logger
+from src.wineqltypred import logger
 import json
 import joblib
 from ensure import ensure_annotations

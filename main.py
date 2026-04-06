@@ -1,3 +1,3 @@
-from src.housepricepred import logger
+from src.wineqltypred import logger
 
-logger.info("Welcome to our custom logging for House Prediction")
+logger.info("Welcome to our custom logging for Wine Quality Prediction")
