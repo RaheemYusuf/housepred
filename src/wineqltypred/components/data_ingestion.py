@@ -2,11 +2,11 @@ import os
 import urllib.request as request
 from src.wineqltypred import logger
 import zipfile
-from src.wineqltypred.entity.config_entity import (DataIngestionconfig)
+from src.wineqltypred.entity.config_entity import (DataIngestionConfig)
 
 ## component - Data ingestion
 class DataIngestion:
-    def __init__(self, config:DataIngestionconfig):
+    def __init__(self, config:DataIngestionConfig):
         self.config = config
 
     # Downloading the zip file
